@@ -1,6 +1,6 @@
 let numeros = [1,2,3,4,5];
 
-//Map, función que recorre la lista y lo imprime todo junto en un Array.
+//Map, función que recorre la lista y te crea una copia.
 let number = numeros.map(number => {return number});
 
 console.log(number)
